@@ -13,30 +13,30 @@ if __name__ == "__main__":
     parser.add_argument('--store_dir', default='./MAC_KG_store', help='The directory to store the constructed multi-modal knowledge graph')
 
     # ============ Content Crawler Settings ==============
-    parser.add_argument('--content_crawler_user_agent', default='MyWikiProject/1.0 (quxiaolong@bjfu.edu.cn)',
+    parser.add_argument('--content_crawler_user_agent', default='MyWikiProject/1.0 (your_email@email.com)',
                         help='Please replace it with your own User-Agent information')
 
 
     # ============ Agent API Settings ==============
 
     # Corpus Extracting Agent
-    parser.add_argument('--CEA_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--CEA_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--CEA_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--CEA_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--CEA_model', default='gpt-4o', help='model name')
 
 
     # Textual Enhancing Agent
-    parser.add_argument('--TEA_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--TEA_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--TEA_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--TEA_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--TEA_model', default='gpt-4o', help='model name')
 
 
     # Structure Verifying Agent
-    parser.add_argument('--SVA_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--SVA_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--SVA_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--SVA_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--SVA_model', default='gpt-4o', help='model name')
 
 
@@ -47,9 +47,9 @@ if __name__ == "__main__":
 
 
     # Tail Pruning Agent
-    parser.add_argument('--TPA_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--TPA_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--TPA_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--TPA_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--TPA_model', default='gpt-4o', help='Tail pruning model name')
 
 
@@ -60,16 +60,16 @@ if __name__ == "__main__":
 
     # Visual Enhancing Agent
     # Visual Enhancing Agent Image to Description Module
-    parser.add_argument('--VEA_I2D_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--VEA_I2D_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--VEA_I2D_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--VEA_I2D_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--VEA_I2D_model', default='gpt-4o', help='model name')
 
 
     # Visual Enhancing Agent Description to Triple Module
-    parser.add_argument('--VEA_D2T_api_key', default='Bearer sk-2dHYzprXjkjebj4BmowCXmfVqgjheoyzPloDwSREZtB56Ztp',
+    parser.add_argument('--VEA_D2T_api_key', default='API KEY',
                         help='API key')
-    parser.add_argument('--VEA_D2T_url', default='https://api.chatanywhere.tech/v1', help='Optional API base URL')
+    parser.add_argument('--VEA_D2T_url', default='API URL', help='Optional API base URL')
     parser.add_argument('--VEA_D2T_model', default='gpt-4o', help='model name')
 
     # Image2text Matching Agent
