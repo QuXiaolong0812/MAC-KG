@@ -1,0 +1,975 @@
+2025-07-21 12:20:48,475 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-07-21 12:20:48,475 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-07-21 12:20:48,476 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-07-21 12:20:48,476 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-07-21 12:20:54,696 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-07-21 12:21:12,985 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-07-21 12:21:12,985 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-07-21 12:21:12,993 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-07-21 12:21:24,415 - MAC-KG - INFO - Extracted 37 triples from the corpus for pandas.
+2025-07-21 12:21:24,415 - MAC-KG - INFO - CEA Prompt Tokens: 9443, Completion Tokens: 965, Processing Time: 11.42 seconds
+2025-09-12 20:27:41,882 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 20:27:41,883 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 20:27:41,883 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 20:27:41,883 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 20:27:47,708 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 20:28:05,130 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 20:28:05,130 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 20:28:05,130 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 20:28:26,694 - MAC-KG - INFO - Extracted 67 triples from the corpus for pandas.
+2025-09-12 20:28:26,694 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 1741, Processing Time: 21.56 seconds
+2025-09-12 20:28:28,396 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-12 20:28:28,396 - MAC-KG - INFO - Description Classification Prompt Tokens: 2802, Completion Tokens: 47, Processing Time: 1.70 seconds
+2025-09-12 20:28:28,396 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 20:28:28,404 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 20:28:30,013 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 20:28:30,014 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 20:28:30,014 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 20:28:31,033 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat with distinctive black patches.
+2025-09-12 20:28:31,033 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 14, Processing Time: 1.02 seconds
+2025-09-12 20:28:31,033 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 20:28:31,033 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: 'FileOperator' object has no attribute 'get_image_files'
+2025-09-12 20:32:50,825 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 20:32:50,825 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 20:32:50,825 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 20:32:50,825 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 20:32:57,005 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 20:33:08,800 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 20:33:08,800 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 20:33:08,810 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 20:33:19,306 - MAC-KG - INFO - Extracted 42 triples from the corpus for pandas.
+2025-09-12 20:33:19,307 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 1082, Processing Time: 10.50 seconds
+2025-09-12 20:33:21,061 - MAC-KG - INFO - Classified 3 descriptive triples for pandas.
+2025-09-12 20:33:21,061 - MAC-KG - INFO - Description Classification Prompt Tokens: 1994, Completion Tokens: 115, Processing Time: 1.75 seconds
+2025-09-12 20:33:21,062 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 20:33:21,064 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 20:33:22,329 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 20:33:22,330 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 20:33:22,330 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 20:33:23,558 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by a thick, woolly white coat with distinctive black patches. They have black fur on their ears, limbs, shoulders, and around their eyes.
+2025-09-12 20:33:23,558 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 567, Completion Tokens: 35, Processing Time: 1.23 seconds
+2025-09-12 20:33:23,558 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 20:34:16,828 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 20:34:16,828 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6058, Completion Tokens: 1777, Processing Time: 53.27 seconds
+2025-09-12 20:34:16,828 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 20:34:28,966 - MAC-KG - INFO - Generated 60 feature triples for pandas.
+2025-09-12 20:34:28,966 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2234, Completion Tokens: 1460, Processing Time: 12.14 seconds
+2025-09-12 20:34:28,966 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 20:34:57,317 - MAC-KG - INFO - Verified 101 triples for pandas.
+2025-09-12 20:34:57,319 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 3310, Completion Tokens: 2506, Processing Time: 28.35 seconds
+2025-09-12 20:34:57,320 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 20:34:57,452 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: __init__() missing 1 required positional argument: 'type'
+2025-09-12 20:37:43,744 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 20:37:43,745 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 20:37:43,745 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 20:37:43,745 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 20:37:49,604 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 20:38:00,986 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 20:38:00,986 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 20:38:00,987 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 20:38:15,490 - MAC-KG - INFO - Extracted 50 triples from the corpus for pandas.
+2025-09-12 20:38:15,490 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 1344, Processing Time: 14.50 seconds
+2025-09-12 20:38:19,601 - MAC-KG - INFO - Classified 4 descriptive triples for pandas.
+2025-09-12 20:38:19,602 - MAC-KG - INFO - Description Classification Prompt Tokens: 2304, Completion Tokens: 139, Processing Time: 4.11 seconds
+2025-09-12 20:38:19,602 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 20:38:19,610 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 20:38:20,863 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 20:38:20,864 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 20:38:20,865 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 20:38:22,945 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their large size and round face, a thick, woolly coat, and a distinctive white coat with black patches. Their body shape is typical of bears.
+2025-09-12 20:38:22,947 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 584, Completion Tokens: 37, Processing Time: 2.08 seconds
+2025-09-12 20:38:22,947 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 20:39:20,621 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 20:39:20,621 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6103, Completion Tokens: 1778, Processing Time: 57.67 seconds
+2025-09-12 20:39:20,621 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 20:39:34,228 - MAC-KG - INFO - Generated 49 feature triples for pandas.
+2025-09-12 20:39:34,229 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2236, Completion Tokens: 1163, Processing Time: 13.61 seconds
+2025-09-12 20:39:34,229 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 20:40:05,142 - MAC-KG - INFO - Verified 99 triples for pandas.
+2025-09-12 20:40:05,142 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 3278, Completion Tokens: 2493, Processing Time: 30.91 seconds
+2025-09-12 20:40:05,142 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 20:40:05,237 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: 0
+2025-09-12 20:49:38,988 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 20:49:38,989 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 20:49:38,989 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 20:49:38,989 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 20:49:45,336 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 20:49:56,843 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 20:49:56,843 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 20:49:56,843 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 20:50:20,480 - MAC-KG - INFO - Extracted 117 triples from the corpus for pandas.
+2025-09-12 20:50:20,480 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 3083, Processing Time: 23.64 seconds
+2025-09-12 20:50:24,220 - MAC-KG - INFO - Classified 6 descriptive triples for pandas.
+2025-09-12 20:50:24,220 - MAC-KG - INFO - Description Classification Prompt Tokens: 4445, Completion Tokens: 207, Processing Time: 3.74 seconds
+2025-09-12 20:50:24,220 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 20:50:24,225 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 20:50:25,493 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 20:50:25,494 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 20:50:25,494 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 20:50:27,293 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their rotund body typical of bears and a distinctive white coat with black patches. Their large size and round face are adaptations to their bamboo diet, while their unique coloration provides camouflage in both winter and summer environments. A panda cub's fur pattern becomes fully developed after a month.
+2025-09-12 20:50:27,293 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 638, Completion Tokens: 61, Processing Time: 1.80 seconds
+2025-09-12 20:50:27,293 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 20:51:25,185 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 20:51:25,185 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6314, Completion Tokens: 1741, Processing Time: 57.89 seconds
+2025-09-12 20:51:25,185 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 20:51:39,269 - MAC-KG - INFO - Generated 43 feature triples for pandas.
+2025-09-12 20:51:39,269 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2201, Completion Tokens: 1053, Processing Time: 14.08 seconds
+2025-09-12 20:51:39,269 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 20:52:13,420 - MAC-KG - INFO - Verified 160 triples for pandas.
+2025-09-12 20:52:13,420 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 4846, Completion Tokens: 4122, Processing Time: 34.15 seconds
+2025-09-12 20:52:13,420 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 20:52:15,729 - MAC-KG - INFO - Aligned 160 triples to 160 unique triples.
+2025-09-12 20:52:15,729 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: unhashable type: 'KGTriple'
+2025-09-12 20:54:49,466 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 20:54:49,467 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 20:54:49,467 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 20:54:49,467 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 20:54:55,709 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 20:55:07,319 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 20:55:07,319 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 20:55:07,328 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 20:55:31,589 - MAC-KG - WARNING - Failed to parse response as JSON: __init__() got an unexpected keyword argument 'type'
+2025-09-12 20:55:31,589 - MAC-KG - INFO - Extracted 0 triples from the corpus for pandas.
+2025-09-12 20:55:31,589 - MAC-KG - INFO - CEA Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 24.26 seconds
+2025-09-12 20:55:31,589 - MAC-KG - INFO - Classified 0 descriptive triples for pandas.
+2025-09-12 20:55:31,589 - MAC-KG - INFO - Description Classification Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-12 20:55:31,590 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 20:55:31,593 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 20:55:32,799 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 20:55:32,800 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 20:55:32,800 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 20:55:32,800 - MAC-KG - INFO - Generated description text for pandas: 
+2025-09-12 20:55:32,800 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-12 20:55:32,800 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 20:56:20,400 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 20:56:20,400 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6041, Completion Tokens: 1808, Processing Time: 47.60 seconds
+2025-09-12 20:56:20,400 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 20:56:35,206 - MAC-KG - WARNING - Failed to parse response as JSON: __init__() got an unexpected keyword argument 'type'
+2025-09-12 20:56:35,206 - MAC-KG - INFO - Generated 0 feature triples for pandas.
+2025-09-12 20:56:35,206 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 14.81 seconds
+2025-09-12 20:56:35,206 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 20:56:35,207 - MAC-KG - INFO - Verified 0 triples for pandas.
+2025-09-12 20:56:35,207 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-12 20:56:35,207 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 20:56:35,211 - MAC-KG - INFO - Aligned 0 triples to 0 unique triples.
+2025-09-12 20:56:35,211 - MAC-KG - INFO - Aligned 0 triples for pandas.
+2025-09-12 20:56:35,211 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-12 20:56:35,211 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-12 20:56:35,211 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: 'TailPruningAgent' object has no attribute 'prune_triples'
+2025-09-12 21:05:11,414 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 21:05:11,414 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 21:05:11,414 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 21:05:11,414 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 21:05:17,511 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 21:05:29,062 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 21:05:29,062 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 21:05:42,377 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 21:05:57,817 - MAC-KG - WARNING - Failed to parse response as JSON: __init__() got an unexpected keyword argument 'type'
+2025-09-12 21:06:04,673 - MAC-KG - INFO - Extracted 0 triples from the corpus for pandas.
+2025-09-12 21:06:08,441 - MAC-KG - INFO - CEA Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 15.44 seconds
+2025-09-12 21:14:30,050 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 21:14:30,050 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 21:14:30,050 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 21:14:30,050 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 21:14:36,051 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 21:14:45,058 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 21:14:45,058 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 21:14:54,828 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 21:16:20,252 - MAC-KG - INFO - Extracted 59 triples from the corpus for pandas.
+2025-09-12 21:16:20,252 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 1547, Processing Time: 14.68 seconds
+2025-09-12 21:16:27,964 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-12 21:16:27,964 - MAC-KG - INFO - Description Classification Prompt Tokens: 2561, Completion Tokens: 47, Processing Time: 2.10 seconds
+2025-09-12 21:16:27,964 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 21:16:27,968 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 21:16:29,234 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 21:16:29,235 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 21:16:29,235 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 21:16:30,535 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their distinctive white coat adorned with black patches.
+2025-09-12 21:16:30,535 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 1.30 seconds
+2025-09-12 21:16:30,536 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 21:17:22,542 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 21:17:22,542 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6134, Completion Tokens: 1588, Processing Time: 52.01 seconds
+2025-09-12 21:17:22,542 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 21:17:37,281 - MAC-KG - INFO - Generated 49 feature triples for pandas.
+2025-09-12 21:17:37,281 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2046, Completion Tokens: 1205, Processing Time: 14.74 seconds
+2025-09-12 21:17:37,281 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 21:17:59,599 - MAC-KG - INFO - Verified 107 triples for pandas.
+2025-09-12 21:17:59,599 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 3514, Completion Tokens: 2716, Processing Time: 22.32 seconds
+2025-09-12 21:17:59,600 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 21:18:06,934 - MAC-KG - INFO - Aligned 107 triples to 107 unique triples.
+2025-09-12 21:18:06,938 - MAC-KG - INFO - Aligned 99 triples for pandas.
+2025-09-12 21:18:06,938 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 7.34 seconds
+2025-09-12 21:18:06,938 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-12 21:18:10,383 - MAC-KG - INFO - Pruned to 10 entities for pandas.
+2025-09-12 21:59:20,692 - MAC-KG - INFO - Starting MAC-KG automatic construction for the start entity: pandas
+2025-09-12 21:59:20,692 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-12 21:59:20,693 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-12 21:59:20,693 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-12 21:59:26,631 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-12 21:59:37,792 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-12 21:59:37,792 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-12 21:59:37,792 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-12 22:00:03,909 - MAC-KG - INFO - Extracted 70 triples from the corpus for pandas.
+2025-09-12 22:00:03,909 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 1793, Processing Time: 26.12 seconds
+2025-09-12 22:00:06,838 - MAC-KG - INFO - Classified 4 descriptive triples for pandas.
+2025-09-12 22:00:06,838 - MAC-KG - INFO - Description Classification Prompt Tokens: 2873, Completion Tokens: 138, Processing Time: 2.93 seconds
+2025-09-12 22:00:06,838 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-12 22:00:06,842 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-12 22:00:08,099 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-12 22:00:08,100 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-12 22:00:08,100 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-12 22:00:09,722 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their thick, woolly white coat adorned with distinctive black patches. Their body shape is typical of bears, and their overall coloration is a striking combination of black and white.
+2025-09-12 22:00:09,722 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 583, Completion Tokens: 40, Processing Time: 1.62 seconds
+2025-09-12 22:00:09,722 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-12 22:01:07,248 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-12 22:01:07,248 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 5982, Completion Tokens: 1747, Processing Time: 57.52 seconds
+2025-09-12 22:01:07,249 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-12 22:01:16,807 - MAC-KG - INFO - Generated 25 feature triples for pandas.
+2025-09-12 22:01:16,807 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2205, Completion Tokens: 589, Processing Time: 9.56 seconds
+2025-09-12 22:01:16,807 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-12 22:01:40,165 - MAC-KG - INFO - Verified 95 triples for pandas.
+2025-09-12 22:01:40,165 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 3157, Completion Tokens: 2368, Processing Time: 23.36 seconds
+2025-09-12 22:01:40,165 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-12 22:01:41,471 - MAC-KG - INFO - Aligned 95 triples to 94 triples.
+2025-09-12 22:01:41,471 - MAC-KG - INFO - Aligned 94 triples for pandas.
+2025-09-12 22:01:41,471 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 1.31 seconds, Head ID: 0
+2025-09-12 22:01:41,473 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-12 22:01:44,506 - MAC-KG - INFO - Pruned to 10 entities for pandas.
+2025-09-13 11:58:13,895 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 11:58:13,895 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 11:58:13,895 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 11:58:13,895 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 11:58:13,895 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 11:58:19,961 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 11:58:35,898 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 11:58:35,898 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 11:58:35,898 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 11:58:41,806 - MAC-KG - INFO - Extracted 22 triples from the corpus for pandas.
+2025-09-13 11:58:41,806 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 570, Processing Time: 5.91 seconds
+2025-09-13 11:58:43,217 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 11:58:43,217 - MAC-KG - INFO - Description Classification Prompt Tokens: 1362, Completion Tokens: 47, Processing Time: 1.41 seconds
+2025-09-13 11:58:43,217 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 11:58:43,220 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 11:58:44,482 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 11:58:44,483 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 11:58:44,483 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 11:58:46,802 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their striking white coats with distinctive black patches.
+2025-09-13 11:58:46,802 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 2.32 seconds
+2025-09-13 11:58:46,802 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 11:59:46,203 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 11:59:46,203 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6587, Completion Tokens: 1618, Processing Time: 59.40 seconds
+2025-09-13 11:59:46,203 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:00:01,360 - MAC-KG - INFO - Generated 78 feature triples for pandas.
+2025-09-13 12:00:01,360 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2078, Completion Tokens: 1942, Processing Time: 15.16 seconds
+2025-09-13 12:00:01,360 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:00:19,240 - MAC-KG - INFO - Verified 93 triples for pandas.
+2025-09-13 12:00:19,240 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 3282, Completion Tokens: 2312, Processing Time: 17.88 seconds
+2025-09-13 12:00:19,240 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:00:20,310 - MAC-KG - INFO - Aligned 93 triples to 91 triples.
+2025-09-13 12:00:20,311 - MAC-KG - INFO - Aligned 91 triples for pandas.
+2025-09-13 12:00:20,311 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 1.07 seconds, Head ID: 0
+2025-09-13 12:00:20,315 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 12:00:23,024 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 12:00:23,025 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 12:00:23,025 - MAC-KG - INFO - Entities for next hop: ['upland conifer forests', 'native to mountainous regions', 'A. m. melanoleuca']
+2025-09-13 12:00:23,025 - MAC-KG - INFO - ============================= Starting Hop 2 =============================
+2025-09-13 12:00:23,025 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: upland conifer forests
+2025-09-13 12:00:23,025 - MAC-KG - INFO - Corpus directory: ./visual_base/upland conifer forests
+2025-09-13 12:00:23,025 - MAC-KG - INFO - Image directory: ./textual_base/upland conifer forests.txt
+2025-09-13 12:00:23,025 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:00:27,371 - MAC-KG - INFO - Corpus for upland conifer forests has been crawled and saved.
+2025-09-13 12:00:48,461 - MAC-KG - INFO - Images for upland conifer forests have been crawled and saved.
+2025-09-13 12:00:48,461 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:00:48,461 - MAC-KG - INFO - Extracting triples for head entity: upland conifer forests
+2025-09-13 12:00:49,754 - MAC-KG - INFO - Extracted 0 triples from the corpus for upland conifer forests.
+2025-09-13 12:00:49,754 - MAC-KG - INFO - CEA Prompt Tokens: 6630, Completion Tokens: 13, Processing Time: 1.29 seconds
+2025-09-13 12:00:49,754 - MAC-KG - INFO - Classified 0 descriptive triples for upland conifer forests.
+2025-09-13 12:00:49,754 - MAC-KG - INFO - Description Classification Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:00:49,754 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:00:49,756 - MAC-KG - INFO - Processing 7 images to filter by: upland conifer forests
+2025-09-13 12:00:50,914 - MAC-KG - INFO - Filtered 3 images that do not contain the species.
+2025-09-13 12:00:50,918 - MAC-KG - INFO - Images for upland conifer forests have been filtered and saved.
+2025-09-13 12:00:50,918 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 12:00:50,918 - MAC-KG - INFO - Generated description text for upland conifer forests: 
+2025-09-13 12:00:50,918 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:00:50,918 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 12:01:54,666 - MAC-KG - INFO - Generated 4 feature descriptions for upland conifer forests.
+2025-09-13 12:01:54,666 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 4572, Completion Tokens: 1105, Processing Time: 63.75 seconds
+2025-09-13 12:01:54,666 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:02:11,445 - MAC-KG - INFO - Generated 32 feature triples for upland conifer forests.
+2025-09-13 12:02:11,445 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 1570, Completion Tokens: 882, Processing Time: 16.78 seconds
+2025-09-13 12:02:11,445 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:02:32,902 - MAC-KG - INFO - Verified 32 triples for upland conifer forests.
+2025-09-13 12:02:32,902 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 1735, Completion Tokens: 883, Processing Time: 21.46 seconds
+2025-09-13 12:02:32,902 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:02:33,366 - MAC-KG - INFO - Aligned 32 triples to 31 triples.
+2025-09-13 12:02:33,367 - MAC-KG - INFO - Aligned 31 triples for upland conifer forests.
+2025-09-13 12:02:33,367 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.47 seconds, Head ID: 16
+2025-09-13 12:02:33,367 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 12:02:34,381 - MAC-KG - INFO - Pruned to 3 entities for upland conifer forests.
+2025-09-13 12:02:34,381 - MAC-KG - INFO - MAC-KG automatic construction for upland conifer forests step completed.
+2025-09-13 12:02:34,381 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: native to mountainous regions
+2025-09-13 12:02:34,381 - MAC-KG - INFO - Corpus directory: ./visual_base/native to mountainous regions
+2025-09-13 12:02:34,381 - MAC-KG - INFO - Image directory: ./textual_base/native to mountainous regions.txt
+2025-09-13 12:02:34,381 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:02:35,776 - MAC-KG - INFO - Corpus for native to mountainous regions has been crawled and saved.
+2025-09-13 12:02:36,396 - MAC-KG - INFO - Images for native to mountainous regions have been crawled and saved.
+2025-09-13 12:02:36,396 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:02:36,396 - MAC-KG - INFO - Extracting triples for head entity: native to mountainous regions
+2025-09-13 12:02:37,857 - MAC-KG - INFO - Extracted 0 triples from the corpus for native to mountainous regions.
+2025-09-13 12:02:37,857 - MAC-KG - INFO - CEA Prompt Tokens: 850, Completion Tokens: 8, Processing Time: 1.46 seconds
+2025-09-13 12:02:37,857 - MAC-KG - INFO - Classified 0 descriptive triples for native to mountainous regions.
+2025-09-13 12:02:37,857 - MAC-KG - INFO - Description Classification Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:02:37,857 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:02:37,860 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: [WinError 3] 系统找不到指定的路径。: './visual_base/native to mountainous regions'
+2025-09-13 12:44:52,857 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 12:44:52,857 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 12:44:52,857 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 12:44:52,857 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 12:44:52,857 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:44:58,877 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 12:45:10,345 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 12:45:10,345 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:45:10,353 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 12:45:27,467 - MAC-KG - INFO - Extracted 25 triples from the corpus for pandas.
+2025-09-13 12:45:27,467 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 653, Processing Time: 17.11 seconds
+2025-09-13 12:45:28,570 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 12:45:28,570 - MAC-KG - INFO - Description Classification Prompt Tokens: 1464, Completion Tokens: 47, Processing Time: 1.10 seconds
+2025-09-13 12:45:28,570 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:45:28,577 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 12:45:29,862 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 12:45:29,863 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 12:45:29,863 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 12:45:31,148 - MAC-KG - INFO - Generated description text for pandas: Pandas are known for their distinctive white coat adorned with black patches.
+2025-09-13 12:45:31,148 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 1.29 seconds
+2025-09-13 12:45:31,148 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 12:46:39,907 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 12:46:39,907 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1695, Processing Time: 68.76 seconds
+2025-09-13 12:46:39,907 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:46:45,866 - MAC-KG - INFO - Generated 20 feature triples for pandas.
+2025-09-13 12:46:45,866 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2157, Completion Tokens: 506, Processing Time: 5.96 seconds
+2025-09-13 12:46:45,866 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:47:04,261 - MAC-KG - INFO - Verified 44 triples for pandas.
+2025-09-13 12:47:04,262 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 1985, Completion Tokens: 1120, Processing Time: 18.39 seconds
+2025-09-13 12:47:04,262 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:47:04,834 - MAC-KG - INFO - Aligned 44 triples to 42 triples.
+2025-09-13 12:47:04,835 - MAC-KG - INFO - Aligned 42 triples for pandas.
+2025-09-13 12:47:04,835 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.57 seconds, Head ID: 0
+2025-09-13 12:47:04,835 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 12:47:23,332 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 12:47:23,333 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 12:47:23,333 - MAC-KG - INFO - Entities for next hop: ['bear species', 'A. m. melanoleuca', 'bamboo forest']
+2025-09-13 12:47:23,333 - MAC-KG - INFO - ============================= Starting Hop 2 =============================
+2025-09-13 12:47:23,333 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: bear species
+2025-09-13 12:47:23,333 - MAC-KG - INFO - Corpus directory: ./visual_base/bear species
+2025-09-13 12:47:23,333 - MAC-KG - INFO - Image directory: ./textual_base/bear species.txt
+2025-09-13 12:47:23,333 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:47:26,756 - MAC-KG - INFO - Corpus for bear species has been crawled and saved.
+2025-09-13 12:47:47,212 - MAC-KG - INFO - Images for bear species have been crawled and saved.
+2025-09-13 12:47:47,212 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:47:47,212 - MAC-KG - INFO - Extracting triples for head entity: bear species
+2025-09-13 12:47:51,470 - MAC-KG - INFO - Extracted 19 triples from the corpus for bear species.
+2025-09-13 12:47:51,471 - MAC-KG - INFO - CEA Prompt Tokens: 5307, Completion Tokens: 482, Processing Time: 4.26 seconds
+2025-09-13 12:47:53,547 - MAC-KG - INFO - Classified 6 descriptive triples for bear species.
+2025-09-13 12:47:53,547 - MAC-KG - INFO - Description Classification Prompt Tokens: 1256, Completion Tokens: 157, Processing Time: 2.08 seconds
+2025-09-13 12:47:53,547 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:47:53,549 - MAC-KG - INFO - Processing 19 images to filter by: bear species
+2025-09-13 12:47:54,785 - MAC-KG - INFO - Filtered 0 images that do not contain the species.
+2025-09-13 12:47:54,786 - MAC-KG - INFO - Images for bear species have been filtered and saved.
+2025-09-13 12:47:54,786 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 12:47:56,517 - MAC-KG - INFO - Generated description text for bear species: The bear species is characterized by large paws with strongly curved claws, small and rounded ears, and a short snout. Its fur can vary from grey to red, often accented by an orange to cream-colored chest patch.
+2025-09-13 12:47:56,517 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 624, Completion Tokens: 45, Processing Time: 1.73 seconds
+2025-09-13 12:47:56,517 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 12:51:06,700 - MAC-KG - INFO - Generated 19 feature descriptions for bear species.
+2025-09-13 12:51:06,700 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 16310, Completion Tokens: 5090, Processing Time: 190.18 seconds
+2025-09-13 12:51:06,700 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:51:13,769 - MAC-KG - INFO - Generated 29 feature triples for bear species.
+2025-09-13 12:51:13,770 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 5552, Completion Tokens: 751, Processing Time: 7.07 seconds
+2025-09-13 12:51:13,770 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:51:29,491 - MAC-KG - INFO - Verified 46 triples for bear species.
+2025-09-13 12:51:29,491 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 2055, Completion Tokens: 1171, Processing Time: 15.72 seconds
+2025-09-13 12:51:29,491 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:51:30,028 - MAC-KG - INFO - Aligned 46 triples to 46 triples.
+2025-09-13 12:51:30,029 - MAC-KG - INFO - Aligned 46 triples for bear species.
+2025-09-13 12:51:30,029 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.54 seconds, Head ID: 1
+2025-09-13 12:51:30,029 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 12:51:36,695 - MAC-KG - INFO - Pruned to 2 entities for bear species.
+2025-09-13 12:51:36,695 - MAC-KG - INFO - MAC-KG automatic construction for bear species step completed.
+2025-09-13 12:51:36,695 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: A. m. melanoleuca
+2025-09-13 12:51:36,695 - MAC-KG - INFO - Corpus directory: ./visual_base/A. m. melanoleuca
+2025-09-13 12:51:36,695 - MAC-KG - INFO - Image directory: ./textual_base/A. m. melanoleuca.txt
+2025-09-13 12:51:36,695 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:51:40,153 - MAC-KG - INFO - Corpus for A. m. melanoleuca has been crawled and saved.
+2025-09-13 12:51:50,902 - MAC-KG - INFO - Images for A. m. melanoleuca have been crawled and saved.
+2025-09-13 12:51:50,902 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:51:50,911 - MAC-KG - INFO - Extracting triples for head entity: A. m. melanoleuca
+2025-09-13 12:51:55,453 - MAC-KG - INFO - Extracted 6 triples from the corpus for A. m. melanoleuca.
+2025-09-13 12:51:55,453 - MAC-KG - INFO - CEA Prompt Tokens: 9445, Completion Tokens: 197, Processing Time: 4.54 seconds
+2025-09-13 12:51:57,005 - MAC-KG - INFO - Classified 2 descriptive triples for A. m. melanoleuca.
+2025-09-13 12:51:57,005 - MAC-KG - INFO - Description Classification Prompt Tokens: 893, Completion Tokens: 86, Processing Time: 1.55 seconds
+2025-09-13 12:51:57,005 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:51:57,006 - MAC-KG - INFO - Processing 11 images to filter by: A. m. melanoleuca
+2025-09-13 12:51:57,943 - MAC-KG - INFO - Filtered 3 images that do not contain the species.
+2025-09-13 12:51:57,944 - MAC-KG - INFO - Images for A. m. melanoleuca have been filtered and saved.
+2025-09-13 12:51:57,944 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 12:51:58,864 - MAC-KG - INFO - Generated description text for A. m. melanoleuca: The A. m. melanoleuca is recognized by its striking color pattern, which features stark black and white shades.
+2025-09-13 12:51:58,864 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 550, Completion Tokens: 25, Processing Time: 0.92 seconds
+2025-09-13 12:51:58,864 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 12:53:32,462 - MAC-KG - INFO - Generated 8 feature descriptions for A. m. melanoleuca.
+2025-09-13 12:53:32,462 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 7136, Completion Tokens: 1230, Processing Time: 93.60 seconds
+2025-09-13 12:53:32,462 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:53:39,330 - MAC-KG - INFO - Generated 23 feature triples for A. m. melanoleuca.
+2025-09-13 12:53:39,330 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 1697, Completion Tokens: 677, Processing Time: 6.87 seconds
+2025-09-13 12:53:39,330 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:53:44,822 - MAC-KG - INFO - Verified 29 triples for A. m. melanoleuca.
+2025-09-13 12:53:44,823 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 1716, Completion Tokens: 860, Processing Time: 5.49 seconds
+2025-09-13 12:53:44,823 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:53:45,154 - MAC-KG - INFO - Aligned 29 triples to 29 triples.
+2025-09-13 12:53:45,155 - MAC-KG - INFO - Aligned 29 triples for A. m. melanoleuca.
+2025-09-13 12:53:45,155 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.33 seconds, Head ID: 12
+2025-09-13 12:53:45,155 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 12:53:48,255 - MAC-KG - INFO - Pruned to 3 entities for A. m. melanoleuca.
+2025-09-13 12:53:48,255 - MAC-KG - INFO - MAC-KG automatic construction for A. m. melanoleuca step completed.
+2025-09-13 12:53:48,255 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: bamboo forest
+2025-09-13 12:53:48,255 - MAC-KG - INFO - Corpus directory: ./visual_base/bamboo forest
+2025-09-13 12:53:48,255 - MAC-KG - INFO - Image directory: ./textual_base/bamboo forest.txt
+2025-09-13 12:53:48,255 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 12:53:51,445 - MAC-KG - INFO - Corpus for bamboo forest has been crawled and saved.
+2025-09-13 12:53:56,847 - MAC-KG - INFO - Images for bamboo forest have been crawled and saved.
+2025-09-13 12:53:56,847 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 12:53:56,848 - MAC-KG - INFO - Extracting triples for head entity: bamboo forest
+2025-09-13 12:54:01,122 - MAC-KG - INFO - Extracted 11 triples from the corpus for bamboo forest.
+2025-09-13 12:54:01,122 - MAC-KG - INFO - CEA Prompt Tokens: 1639, Completion Tokens: 289, Processing Time: 4.27 seconds
+2025-09-13 12:54:02,342 - MAC-KG - INFO - Classified 0 descriptive triples for bamboo forest.
+2025-09-13 12:54:02,342 - MAC-KG - INFO - Description Classification Prompt Tokens: 1016, Completion Tokens: 12, Processing Time: 1.22 seconds
+2025-09-13 12:54:02,342 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 12:54:02,343 - MAC-KG - INFO - Processing 1 images to filter by: bamboo forest
+2025-09-13 12:54:02,410 - MAC-KG - INFO - Filtered 1 images that do not contain the species.
+2025-09-13 12:54:02,411 - MAC-KG - INFO - Images for bamboo forest have been filtered and saved.
+2025-09-13 12:54:02,411 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 12:54:02,411 - MAC-KG - INFO - Generated description text for bamboo forest: 
+2025-09-13 12:54:02,411 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:54:02,411 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 12:54:02,411 - MAC-KG - WARNING - No images found in directory: ./visual_base/bamboo forest
+2025-09-13 12:54:02,411 - MAC-KG - INFO - Generated 0 feature descriptions for bamboo forest.
+2025-09-13 12:54:02,411 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:54:02,411 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 12:54:03,540 - MAC-KG - WARNING - Response does not contain a valid JSON array.
+2025-09-13 12:54:03,541 - MAC-KG - INFO - Generated 0 feature triples for bamboo forest.
+2025-09-13 12:54:03,541 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 1.13 seconds
+2025-09-13 12:54:03,541 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 12:54:07,920 - MAC-KG - WARNING - Failed to parse JSON from the response.
+2025-09-13 12:54:07,920 - MAC-KG - INFO - Verified 0 triples for bamboo forest.
+2025-09-13 12:54:07,920 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 12:54:07,920 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 12:54:07,920 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: list index out of range
+2025-09-13 13:19:13,114 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 13:19:13,114 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 13:19:13,114 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 13:19:13,114 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 13:19:13,114 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 13:19:19,380 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 13:19:31,662 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 13:19:31,662 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 13:19:31,663 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 13:19:39,555 - MAC-KG - INFO - Extracted 19 triples from the corpus for pandas.
+2025-09-13 13:19:39,555 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 484, Processing Time: 7.89 seconds
+2025-09-13 13:19:40,737 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 13:19:40,737 - MAC-KG - INFO - Description Classification Prompt Tokens: 1257, Completion Tokens: 47, Processing Time: 1.18 seconds
+2025-09-13 13:19:40,737 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 13:19:40,745 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 13:19:42,696 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 13:19:42,698 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 13:19:42,699 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 13:19:43,638 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat adorned with distinctive black patches.
+2025-09-13 13:19:43,638 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 0.94 seconds
+2025-09-13 13:19:43,639 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 13:20:56,785 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 13:20:56,786 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1693, Processing Time: 73.15 seconds
+2025-09-13 13:20:56,786 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 13:21:10,396 - MAC-KG - INFO - Generated 72 feature triples for pandas.
+2025-09-13 13:21:10,397 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2155, Completion Tokens: 1660, Processing Time: 13.61 seconds
+2025-09-13 13:21:10,398 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 13:22:00,785 - MAC-KG - WARNING - Failed to parse JSON from the response.
+2025-09-13 13:22:00,786 - MAC-KG - INFO - Verified 0 triples for pandas.
+2025-09-13 13:22:00,786 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.00 seconds
+2025-09-13 13:22:00,787 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 13:22:00,787 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: list index out of range
+2025-09-13 14:45:44,629 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 14:45:44,630 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 14:45:44,630 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 14:45:44,630 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 14:45:44,630 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 14:45:50,677 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 14:46:02,524 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 14:46:02,525 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 14:46:02,532 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 14:46:10,471 - MAC-KG - INFO - Extracted 31 triples from the corpus for pandas.
+2025-09-13 14:46:10,471 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 790, Processing Time: 7.94 seconds
+2025-09-13 14:46:12,488 - MAC-KG - INFO - Classified 2 descriptive triples for pandas.
+2025-09-13 14:46:12,488 - MAC-KG - INFO - Description Classification Prompt Tokens: 1636, Completion Tokens: 76, Processing Time: 2.02 seconds
+2025-09-13 14:46:12,488 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 14:46:12,493 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 14:46:13,778 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 14:46:13,779 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 14:46:13,779 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 14:46:15,438 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by a white coat with striking black patches and have a rotund body shape.
+2025-09-13 14:46:15,438 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 535, Completion Tokens: 21, Processing Time: 1.66 seconds
+2025-09-13 14:46:15,438 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 14:47:10,176 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 14:47:10,176 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6511, Completion Tokens: 1661, Processing Time: 54.74 seconds
+2025-09-13 14:47:10,176 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 14:47:16,674 - MAC-KG - INFO - Generated 30 feature triples for pandas.
+2025-09-13 14:47:16,674 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2122, Completion Tokens: 724, Processing Time: 6.50 seconds
+2025-09-13 14:47:16,674 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image-text matching results for pandas:
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.3345
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.2912
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.2549
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.0975
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0187
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0034
+2025-09-13 14:47:17,316 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 14:47:17,316 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 14:47:19,957 - MAC-KG - INFO - Clustered images for pandas:
+2025-09-13 14:47:19,957 - MAC-KG - INFO - Cluster 2: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg
+2025-09-13 14:47:19,957 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg
+2025-09-13 14:47:19,957 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Qinling_panda.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 14:47:19,957 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 14:47:19,957 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 14:47:19,958 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 14:49:05,595 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 14:49:05,595 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 14:49:05,595 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 14:49:05,595 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 14:49:05,595 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 14:49:12,069 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 14:49:23,709 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 14:49:23,709 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 14:49:23,709 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 14:49:53,371 - MAC-KG - INFO - Extracted 26 triples from the corpus for pandas.
+2025-09-13 14:49:53,371 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 679, Processing Time: 29.66 seconds
+2025-09-13 14:49:56,403 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 14:49:56,403 - MAC-KG - INFO - Description Classification Prompt Tokens: 1495, Completion Tokens: 47, Processing Time: 3.03 seconds
+2025-09-13 14:49:56,403 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 14:49:56,409 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 14:49:57,552 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 14:49:57,553 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 14:49:57,553 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 14:49:59,140 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by a white coat with distinctive black patches.
+2025-09-13 14:49:59,140 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 14, Processing Time: 1.59 seconds
+2025-09-13 14:49:59,140 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 14:50:58,780 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 14:50:58,780 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1702, Processing Time: 59.64 seconds
+2025-09-13 14:50:58,780 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 14:51:08,774 - MAC-KG - INFO - Generated 50 feature triples for pandas.
+2025-09-13 14:51:08,774 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2164, Completion Tokens: 1194, Processing Time: 9.99 seconds
+2025-09-13 14:51:08,775 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image-text matching results for pandas:
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.3721
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.2915
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.1923
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.1099
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0300
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0042
+2025-09-13 14:51:09,463 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0001
+2025-09-13 14:51:09,463 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 14:51:11,390 - MAC-KG - INFO - Clustered images for pandas:
+2025-09-13 14:51:11,390 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 14:51:11,390 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 14:51:11,390 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 14:51:11,390 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 14:51:11,390 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 15:15:05,556 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 15:15:05,556 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 15:15:05,557 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 15:15:05,557 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 15:15:05,557 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 15:15:11,517 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 15:15:23,167 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 15:15:23,167 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 15:15:23,167 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 15:15:30,541 - MAC-KG - INFO - Extracted 30 triples from the corpus for pandas.
+2025-09-13 15:15:30,541 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 827, Processing Time: 7.37 seconds
+2025-09-13 15:15:32,931 - MAC-KG - INFO - Classified 2 descriptive triples for pandas.
+2025-09-13 15:15:32,931 - MAC-KG - INFO - Description Classification Prompt Tokens: 1681, Completion Tokens: 78, Processing Time: 2.39 seconds
+2025-09-13 15:15:32,931 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 15:15:32,933 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 15:15:34,197 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 15:15:34,198 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 15:15:34,198 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 15:15:35,066 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their distinctive white coat with black patches, which appears to serve as effective camouflage.
+2025-09-13 15:15:35,066 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 537, Completion Tokens: 22, Processing Time: 0.87 seconds
+2025-09-13 15:15:35,066 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 15:16:41,566 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 15:16:41,566 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1890, Processing Time: 66.50 seconds
+2025-09-13 15:16:41,566 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 15:16:48,175 - MAC-KG - INFO - Generated 31 feature triples for pandas.
+2025-09-13 15:16:48,175 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2352, Completion Tokens: 768, Processing Time: 6.61 seconds
+2025-09-13 15:16:48,176 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.4773
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.2304
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.1181
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.1167
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.0527
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0047
+2025-09-13 15:16:48,799 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 15:16:48,805 - MAC-KG - INFO - Image-text matching results for pandas:
+2025-09-13 15:16:48,805 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 15:16:50,788 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 15:16:50,788 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 15:16:50,789 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 15:16:50,789 - MAC-KG - INFO - Clustered images for pandas:
+2025-09-13 15:16:50,789 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 15:16:50,789 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 15:16:50,789 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 15:38:33,413 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 15:38:33,413 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 15:38:33,415 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 15:38:33,415 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 15:38:33,415 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 15:38:39,745 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 15:38:51,138 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 15:38:51,138 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 15:38:51,139 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 15:38:58,993 - MAC-KG - INFO - Extracted 25 triples from the corpus for pandas.
+2025-09-13 15:38:58,993 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 681, Processing Time: 7.85 seconds
+2025-09-13 15:39:02,456 - MAC-KG - INFO - Classified 2 descriptive triples for pandas.
+2025-09-13 15:39:02,456 - MAC-KG - INFO - Description Classification Prompt Tokens: 1491, Completion Tokens: 77, Processing Time: 3.46 seconds
+2025-09-13 15:39:02,456 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 15:39:02,461 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 15:39:03,744 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 15:39:03,746 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 15:39:03,746 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 15:39:04,618 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat adorned with distinctive black patches and a rotund body.
+2025-09-13 15:39:04,618 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 536, Completion Tokens: 20, Processing Time: 0.87 seconds
+2025-09-13 15:39:04,618 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 15:40:13,437 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 15:40:13,438 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1766, Processing Time: 68.82 seconds
+2025-09-13 15:40:13,438 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 15:40:23,746 - MAC-KG - INFO - Generated 53 feature triples for pandas.
+2025-09-13 15:40:23,746 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2228, Completion Tokens: 1317, Processing Time: 10.31 seconds
+2025-09-13 15:40:23,746 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.4060
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.2449
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.2378
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.0903
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0177
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0032
+2025-09-13 15:40:24,334 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 15:40:24,339 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 15:40:26,278 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 15:40:26,279 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 15:40:26,279 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 15:40:26,297 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 15:40:26,297 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 15:40:26,297 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 15:49:28,781 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 15:49:28,781 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 15:49:28,781 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 15:49:28,781 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 15:49:28,781 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 15:49:35,333 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 15:49:46,645 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 15:49:46,645 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 15:49:46,653 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 15:49:52,657 - MAC-KG - INFO - Extracted 25 triples from the corpus for pandas.
+2025-09-13 15:49:52,658 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 652, Processing Time: 6.00 seconds
+2025-09-13 15:49:53,800 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 15:49:53,800 - MAC-KG - INFO - Description Classification Prompt Tokens: 1462, Completion Tokens: 47, Processing Time: 1.14 seconds
+2025-09-13 15:49:53,800 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 15:49:53,808 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 15:49:55,026 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 15:49:55,027 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 15:49:55,027 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 15:49:55,962 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat adorned with distinctive black patches.
+2025-09-13 15:49:55,962 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 0.94 seconds
+2025-09-13 15:49:55,962 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 15:51:04,297 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 15:51:04,297 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1825, Processing Time: 68.33 seconds
+2025-09-13 15:51:04,297 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 15:51:10,777 - MAC-KG - INFO - Generated 35 feature triples for pandas.
+2025-09-13 15:51:10,777 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2287, Completion Tokens: 820, Processing Time: 6.48 seconds
+2025-09-13 15:51:10,777 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.3323
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.2707
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.2359
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.1207
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0370
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0034
+2025-09-13 15:51:11,361 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 15:51:11,365 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 15:51:13,459 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 15:51:13,460 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 15:51:13,460 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 15:51:13,469 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 15:51:13,469 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 15:51:13,469 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 16:14:27,804 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 16:14:27,805 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 16:14:27,805 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 16:14:27,805 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 16:14:27,805 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 16:14:33,961 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 16:14:45,826 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 16:14:45,826 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 16:14:45,834 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 16:14:53,855 - MAC-KG - INFO - Extracted 28 triples from the corpus for pandas.
+2025-09-13 16:14:53,855 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 779, Processing Time: 8.02 seconds
+2025-09-13 16:14:54,934 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 16:14:54,934 - MAC-KG - INFO - Description Classification Prompt Tokens: 1607, Completion Tokens: 47, Processing Time: 1.08 seconds
+2025-09-13 16:14:54,934 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 16:14:54,938 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 16:14:56,228 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 16:14:56,229 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 16:14:56,229 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 16:14:59,756 - MAC-KG - INFO - Generated description text for pandas: The panda is characterized by its distinctive white coat with black patches.
+2025-09-13 16:14:59,757 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 14, Processing Time: 3.53 seconds
+2025-09-13 16:14:59,757 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 16:16:09,257 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 16:16:09,257 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1953, Processing Time: 69.50 seconds
+2025-09-13 16:16:09,257 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 16:16:20,573 - MAC-KG - INFO - Generated 30 feature triples for pandas.
+2025-09-13 16:16:20,573 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2415, Completion Tokens: 738, Processing Time: 11.32 seconds
+2025-09-13 16:16:20,573 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 16:16:44,600 - MAC-KG - INFO - Verified 57 triples for pandas.
+2025-09-13 16:16:44,600 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 2329, Completion Tokens: 1479, Processing Time: 24.03 seconds
+2025-09-13 16:16:44,600 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 16:16:45,285 - MAC-KG - INFO - Aligned 57 triples to 57 triples.
+2025-09-13 16:16:45,285 - MAC-KG - INFO - Aligned 57 triples for pandas.
+2025-09-13 16:16:45,286 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.69 seconds, Head ID: 0
+2025-09-13 16:16:45,286 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 16:17:03,448 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 16:17:03,448 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.6919
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.1468
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.1058
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.0398
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0133
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0022
+2025-09-13 16:17:03,959 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0002
+2025-09-13 16:17:03,968 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 16:17:05,906 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 16:17:05,907 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 16:17:05,907 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 16:17:05,916 - MAC-KG - ERROR - An error occurred during MAC-KG automatic construction: __init__() got an unexpected keyword argument 'type'
+2025-09-13 16:18:13,503 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 16:18:13,504 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 16:18:13,504 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 16:18:13,504 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 16:18:13,504 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 16:18:19,571 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 16:18:30,753 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 16:18:30,753 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 16:18:30,753 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 16:18:44,927 - MAC-KG - INFO - Extracted 36 triples from the corpus for pandas.
+2025-09-13 16:18:44,927 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 902, Processing Time: 14.17 seconds
+2025-09-13 16:18:46,220 - MAC-KG - INFO - Classified 2 descriptive triples for pandas.
+2025-09-13 16:18:46,221 - MAC-KG - INFO - Description Classification Prompt Tokens: 1778, Completion Tokens: 79, Processing Time: 1.29 seconds
+2025-09-13 16:18:46,221 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 16:18:46,224 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 16:18:47,412 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 16:18:47,413 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 16:18:47,413 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 16:18:48,796 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat with distinctive black patches and exhibit a round face due to their jaw muscles.
+2025-09-13 16:18:48,796 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 538, Completion Tokens: 24, Processing Time: 1.38 seconds
+2025-09-13 16:18:48,796 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 16:19:56,836 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 16:19:56,837 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1725, Processing Time: 68.04 seconds
+2025-09-13 16:19:56,837 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 16:20:04,215 - MAC-KG - INFO - Generated 38 feature triples for pandas.
+2025-09-13 16:20:04,215 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2187, Completion Tokens: 890, Processing Time: 7.38 seconds
+2025-09-13 16:20:04,215 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 16:33:39,397 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 16:33:39,397 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 16:33:39,397 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 16:33:39,397 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 16:33:39,397 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 16:33:45,672 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 16:33:58,542 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 16:33:58,542 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 16:33:58,542 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 16:34:10,366 - MAC-KG - INFO - Extracted 15 triples from the corpus for pandas.
+2025-09-13 16:34:10,366 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 403, Processing Time: 11.82 seconds
+2025-09-13 16:34:16,015 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 16:34:16,015 - MAC-KG - INFO - Description Classification Prompt Tokens: 1153, Completion Tokens: 47, Processing Time: 5.65 seconds
+2025-09-13 16:34:16,015 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 16:34:16,023 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 16:34:17,269 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 16:34:17,271 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 16:34:17,271 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 16:34:18,632 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their white coat adorned with black patches.
+2025-09-13 16:34:18,632 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 14, Processing Time: 1.36 seconds
+2025-09-13 16:34:18,633 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 16:35:25,253 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 16:35:25,253 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1731, Processing Time: 66.62 seconds
+2025-09-13 16:35:25,253 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 16:35:32,510 - MAC-KG - INFO - Generated 38 feature triples for pandas.
+2025-09-13 16:35:32,511 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2193, Completion Tokens: 945, Processing Time: 7.26 seconds
+2025-09-13 16:35:32,511 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 16:35:54,295 - MAC-KG - INFO - Verified 53 triples for pandas.
+2025-09-13 16:35:54,295 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 2165, Completion Tokens: 1334, Processing Time: 21.78 seconds
+2025-09-13 16:35:54,295 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 16:35:54,940 - MAC-KG - INFO - Aligned 53 triples to 53 triples.
+2025-09-13 16:35:54,941 - MAC-KG - INFO - Aligned 53 triples for pandas.
+2025-09-13 16:35:54,941 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.65 seconds, Head ID: 0
+2025-09-13 16:35:54,941 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 16:36:10,475 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 16:36:10,475 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 16:36:11,069 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.3136
+2025-09-13 16:36:11,069 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.2793
+2025-09-13 16:36:11,069 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.2406
+2025-09-13 16:36:11,069 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.1276
+2025-09-13 16:36:11,070 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0355
+2025-09-13 16:36:11,070 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0034
+2025-09-13 16:36:11,070 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 16:36:11,074 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 16:36:12,991 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 16:36:12,992 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 16:36:12,992 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 16:36:13,001 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 16:36:13,001 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 16:36:13,001 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 16:36:13,001 - MAC-KG - INFO - Summarizing the constructed multi-modal knowledge graph...
+2025-09-13 16:36:13,001 - MAC-KG - INFO - Summary completed.
+2025-09-13 21:44:30,570 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 21:44:30,570 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 21:44:30,570 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 21:44:30,570 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 21:44:30,571 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 21:44:36,644 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 21:44:48,902 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 21:44:48,902 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 21:44:48,902 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 21:44:59,626 - MAC-KG - INFO - Extracted 23 triples from the corpus for pandas.
+2025-09-13 21:44:59,627 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 595, Processing Time: 10.72 seconds
+2025-09-13 21:45:01,082 - MAC-KG - INFO - Classified 1 descriptive triples for pandas.
+2025-09-13 21:45:01,082 - MAC-KG - INFO - Description Classification Prompt Tokens: 1393, Completion Tokens: 47, Processing Time: 1.45 seconds
+2025-09-13 21:45:01,083 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 21:45:01,088 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 21:45:02,461 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 21:45:02,465 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 21:45:02,466 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 21:45:03,542 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by their distinctive white coat adorned with black patches.
+2025-09-13 21:45:03,543 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 513, Completion Tokens: 15, Processing Time: 1.08 seconds
+2025-09-13 21:45:03,543 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 21:46:14,949 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 21:46:14,949 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6708, Completion Tokens: 1657, Processing Time: 71.41 seconds
+2025-09-13 21:46:14,949 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 21:46:24,515 - MAC-KG - INFO - Generated 40 feature triples for pandas.
+2025-09-13 21:46:24,516 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2119, Completion Tokens: 992, Processing Time: 9.57 seconds
+2025-09-13 21:46:24,516 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 21:46:42,701 - MAC-KG - INFO - Verified 63 triples for pandas.
+2025-09-13 21:46:42,701 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 2394, Completion Tokens: 1573, Processing Time: 18.18 seconds
+2025-09-13 21:46:42,701 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 21:46:43,516 - MAC-KG - INFO - Aligned 63 triples to 63 triples.
+2025-09-13 21:46:43,517 - MAC-KG - INFO - Aligned 63 triples for pandas.
+2025-09-13 21:46:43,517 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 0.82 seconds, Head ID: 0
+2025-09-13 21:46:43,517 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 21:47:13,798 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 21:47:13,798 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.3145
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.2511
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.2476
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.1407
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0422
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0038
+2025-09-13 21:47:14,497 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 21:47:14,504 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 21:47:16,654 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 21:47:16,654 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 21:47:16,655 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 21:47:16,666 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 21:47:16,666 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 21:47:16,666 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 21:47:16,666 - MAC-KG - INFO - Summarizing the constructed multi-modal knowledge graph...
+2025-09-13 21:47:16,668 - MAC-KG - INFO - Number of entities: 55
+2025-09-13 21:47:16,668 - MAC-KG - INFO - Number of relations: 56
+2025-09-13 21:47:16,668 - MAC-KG - INFO - Number of images: 0
+2025-09-13 21:47:16,668 - MAC-KG - INFO - Number of triples: 68
+2025-09-13 21:47:16,668 - MAC-KG - INFO - Summary completed.
+2025-09-13 21:51:53,974 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 21:51:53,974 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 21:51:53,974 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 21:51:53,974 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 21:51:53,974 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 21:52:00,401 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 21:52:11,688 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 21:52:11,688 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 21:52:11,697 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 21:52:29,023 - MAC-KG - INFO - Extracted 76 triples from the corpus for pandas.
+2025-09-13 21:52:29,023 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 2022, Processing Time: 17.33 seconds
+2025-09-13 21:52:31,722 - MAC-KG - INFO - Classified 4 descriptive triples for pandas.
+2025-09-13 21:52:31,722 - MAC-KG - INFO - Description Classification Prompt Tokens: 3138, Completion Tokens: 138, Processing Time: 2.70 seconds
+2025-09-13 21:52:31,722 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 21:52:31,726 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 21:52:33,048 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 21:52:33,049 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 21:52:33,049 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 21:52:34,751 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by a thick, woolly white coat with distinctive black patches, typical of bears. This unique coloration serves as camouflage.
+2025-09-13 21:52:34,751 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 583, Completion Tokens: 29, Processing Time: 1.70 seconds
+2025-09-13 21:52:34,751 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 21:53:45,783 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 21:53:45,784 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 5861, Completion Tokens: 1670, Processing Time: 71.03 seconds
+2025-09-13 21:53:45,784 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 21:53:55,967 - MAC-KG - INFO - Generated 53 feature triples for pandas.
+2025-09-13 21:53:55,968 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2126, Completion Tokens: 1311, Processing Time: 10.18 seconds
+2025-09-13 21:53:55,968 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 21:54:22,011 - MAC-KG - INFO - Verified 128 triples for pandas.
+2025-09-13 21:54:22,011 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 4074, Completion Tokens: 3297, Processing Time: 26.04 seconds
+2025-09-13 21:54:22,011 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 21:54:23,455 - MAC-KG - INFO - Aligned 128 triples to 128 triples.
+2025-09-13 21:54:23,456 - MAC-KG - INFO - Aligned 128 triples for pandas.
+2025-09-13 21:54:23,456 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 1.45 seconds, Head ID: 0
+2025-09-13 21:54:23,456 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
+2025-09-13 21:55:37,353 - MAC-KG - INFO - Pruned to 3 entities for pandas.
+2025-09-13 21:55:37,353 - MAC-KG - INFO - ============================= Image2Text Matching Agent =============================
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg, Similarity Score: 0.8352
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, Similarity Score: 0.0715
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Lightmatter_panda.jpg, Similarity Score: 0.0378
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Giant_Pandas_having_a_snack.jpg, Similarity Score: 0.0219
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Giant_Panda_Eating.jpg, Similarity Score: 0.0200
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Qinling_panda.jpg, Similarity Score: 0.0136
+2025-09-13 21:55:37,989 - MAC-KG - INFO - Image: Mapa_distribuicao_Ailuropoda_melanoleuca.png, Similarity Score: 0.0000
+2025-09-13 21:55:37,993 - MAC-KG - INFO - ============================= Image Clustering Agent =============================
+2025-09-13 21:55:39,857 - MAC-KG - INFO - Cluster 0: ./visual_base/pandas\Giant_Pandas_having_a_snack.jpg, ./visual_base/pandas\Giant_Panda_Eating.jpg, ./visual_base/pandas\Lightmatter_panda.jpg, ./visual_base/pandas\Panda_g%C3%A9ant_-_t%C3%AAte_%28Ailuropoda_melanoleuca%29_%282%29.jpg, ./visual_base/pandas\Recherches_pour_servir_%C3%A0_l%27histoire_naturelle_des_mammif%C3%A8res_%28Pl._50%29_%28white_background%29.jpg
+2025-09-13 21:55:39,858 - MAC-KG - INFO - Cluster 1: ./visual_base/pandas\Mapa_distribuicao_Ailuropoda_melanoleuca.png, ./visual_base/pandas\Qinling_panda.jpg
+2025-09-13 21:55:39,858 - MAC-KG - INFO - Largest cluster selected with 5 images.
+2025-09-13 21:55:39,866 - MAC-KG - INFO - MAC-KG automatic construction for pandas step completed.
+2025-09-13 21:55:39,866 - MAC-KG - INFO - Entities for next hop: []
+2025-09-13 21:55:39,866 - MAC-KG - INFO - MAC-KG automatic construction completed.
+2025-09-13 21:55:39,866 - MAC-KG - INFO - Summarizing the constructed multi-modal knowledge graph...
+2025-09-13 22:03:39,783 - MAC-KG - INFO - ============================= Starting Hop 1 =============================
+2025-09-13 22:03:39,783 - MAC-KG - INFO - Starting MAC-KG automatic construction for the current entity: pandas
+2025-09-13 22:03:39,783 - MAC-KG - INFO - Corpus directory: ./visual_base/pandas
+2025-09-13 22:03:39,784 - MAC-KG - INFO - Image directory: ./textual_base/pandas.txt
+2025-09-13 22:03:39,784 - MAC-KG - INFO - ============================= Content Crawler =============================
+2025-09-13 22:03:45,845 - MAC-KG - INFO - Corpus for pandas has been crawled and saved.
+2025-09-13 22:03:57,782 - MAC-KG - INFO - Images for pandas have been crawled and saved.
+2025-09-13 22:03:57,782 - MAC-KG - INFO - ============================= Corpus Extracting Agent =============================
+2025-09-13 22:03:57,782 - MAC-KG - INFO - Extracting triples for head entity: pandas
+2025-09-13 22:04:45,022 - MAC-KG - INFO - Extracted 140 triples from the corpus for pandas.
+2025-09-13 22:04:45,023 - MAC-KG - INFO - CEA Prompt Tokens: 9434, Completion Tokens: 3954, Processing Time: 47.24 seconds
+2025-09-13 22:04:49,077 - MAC-KG - INFO - Classified 5 descriptive triples for pandas.
+2025-09-13 22:04:49,077 - MAC-KG - INFO - Description Classification Prompt Tokens: 5454, Completion Tokens: 176, Processing Time: 4.05 seconds
+2025-09-13 22:04:49,078 - MAC-KG - INFO - ============================= Image Filtering Agent =============================
+2025-09-13 22:04:49,085 - MAC-KG - INFO - Processing 11 images to filter by: pandas
+2025-09-13 22:04:50,219 - MAC-KG - INFO - Filtered 4 images that do not contain the species.
+2025-09-13 22:04:50,220 - MAC-KG - INFO - Images for pandas have been filtered and saved.
+2025-09-13 22:04:50,220 - MAC-KG - INFO - ============================= Textual Enhancing Agent =============================
+2025-09-13 22:04:52,991 - MAC-KG - INFO - Generated description text for pandas: Pandas are characterized by a rotund body and a distinctive white coat with black patches, which serves as camouflage. They also have a unique thumb-like digit on their paws. The subspecies A. m. qinlingensis features a light brown and white color pattern.
+2025-09-13 22:04:52,991 - MAC-KG - INFO - Textual Enhancing Prompt Tokens: 614, Completion Tokens: 56, Processing Time: 2.77 seconds
+2025-09-13 22:04:52,991 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Descriptions =============================
+2025-09-13 22:06:32,783 - MAC-KG - INFO - Generated 7 feature descriptions for pandas.
+2025-09-13 22:06:32,783 - MAC-KG - INFO - Visual Enhancing Prompt Tokens: 6300, Completion Tokens: 1743, Processing Time: 99.79 seconds
+2025-09-13 22:06:32,783 - MAC-KG - INFO - ============================= Visual Enhancing Agent - Feature Triples =============================
+2025-09-13 22:06:40,471 - MAC-KG - INFO - Generated 35 feature triples for pandas.
+2025-09-13 22:06:40,471 - MAC-KG - INFO - Visual Enhancing Feature Triples Prompt Tokens: 2202, Completion Tokens: 850, Processing Time: 7.69 seconds
+2025-09-13 22:06:40,471 - MAC-KG - INFO - ============================= Structure Verifying Agent =============================
+2025-09-13 22:07:17,655 - MAC-KG - INFO - Verified 175 triples for pandas.
+2025-09-13 22:07:17,656 - MAC-KG - INFO - Structure Verifying Prompt Tokens: 5499, Completion Tokens: 4790, Processing Time: 37.18 seconds
+2025-09-13 22:07:17,656 - MAC-KG - INFO - ============================= Triple Aligning Agent =============================
+2025-09-13 22:07:19,373 - MAC-KG - INFO - Aligned 175 triples to 174 triples.
+2025-09-13 22:07:19,375 - MAC-KG - INFO - Aligned 174 triples for pandas.
+2025-09-13 22:07:19,375 - MAC-KG - INFO - Triple Aligning Prompt Tokens: 0, Completion Tokens: 0, Processing Time: 1.72 seconds, Head ID: 0
+2025-09-13 22:07:19,375 - MAC-KG - INFO - ============================= Tail Pruning Agent =============================
